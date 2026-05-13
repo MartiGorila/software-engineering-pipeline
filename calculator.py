@@ -8,3 +8,7 @@ def sub(a, b):
 
 def multiply(a, b):
     return a * b
+
+
+def sqre(a):
+    return a * a

@@ -16,3 +16,7 @@ def divide(a, b):
 
 def sqre(a):
     return a * a
+
+
+def modulo(a, b):
+    return a % b

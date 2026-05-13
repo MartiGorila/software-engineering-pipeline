@@ -16,6 +16,3 @@ def divide(a, b):
 
 def sqre(a):
     return a * a
-
-
-

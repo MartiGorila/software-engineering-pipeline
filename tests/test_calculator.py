@@ -1,4 +1,4 @@
-from calculator import add, sqre, sub, multiply
+from calculator import add, sqre, sub, divide, multiply
 
 
 def test_add():
@@ -12,6 +12,11 @@ def test_sub():
 def test_multiply():
     assert multiply(3, 4) == 12
     assert multiply(0, 5) == 0
+
+
+def test_divide():
+    assert divide(8, 2) == 4
+    assert divide(20, 10) == 2
 
 
 def test_sqre():

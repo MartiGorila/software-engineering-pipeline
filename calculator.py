@@ -12,4 +12,3 @@ def multiply(a, b):
 
 def sqre(a):
     return a * a
-
